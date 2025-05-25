@@ -1,0 +1,11 @@
+[package]
+name = "crawl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam-channel = "0.5.15"
+http_req = "0.14.0"
+num_cpus = "1.16.0"
+tl = { version = "0.7.8", features = ["simd"] }
+url = "2.5.4"
